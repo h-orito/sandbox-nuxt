@@ -10,4 +10,8 @@ npm-debug.log
 # Nuxt generate
 dist
 
+# 環境設定は個人ごとに用意
 .env
+
+# 本来ignoreすべきではないかもしれないが複雑な依存関係があるわけでもないので簡単のため設定
+package-lock.json
