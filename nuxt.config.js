@@ -1,11 +1,11 @@
 module.exports = {
   env: {
-    FIREBASE_API_KEY: process.env.firebase_apikey,
-    FIREBASE_AUTH_DOMAIN: process.env.firebase_authdomain,
-    FIREBASE_DATABASEURL: process.env.firebase_databaseurl,
-    FIREBASE_PROJECTID: process.env.firebase_projectid,
-    FIREBASE_STORAGEBUCKET: process.env.firebase_storagebucket,
-    FIREBASE_MESSAGINGSENDERID: process.env.firebase_messagingsenderid
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+    FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
+    FIREBASE_DATABASEURL: process.env.FIREBASE_DATABASEURL,
+    FIREBASE_PROJECTID: process.env.FIREBASE_PROJECTID,
+    FIREBASE_STORAGEBUCKET: process.env.FIREBASE_STORAGEBUCKET,
+    FIREBASE_MESSAGINGSENDERID: process.env.FIREBASE_MESSAGINGSENDERID
   },
 
   /*
