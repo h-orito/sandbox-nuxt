@@ -53,6 +53,12 @@ $ npm install firebase
 $ npm install vuexfire
 ```
 
+### dotenv (for use environment variables)
+
+```bash
+$ npm install @nuxtjs/dotenv
+```
+
 ### VS Code で開発する場合
 
 see https://qiita.com/rubytomato@github/items/b35b819671e7cbb3dff7
