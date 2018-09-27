@@ -41,6 +41,18 @@ $ vue --version
 2.9.6
 ```
 
+### firebase
+
+```bash
+$ npm install firebase
+```
+
+### vuexfire
+
+```bash
+$ npm install vuexfire
+```
+
 ### VS Code で開発する場合
 
 see https://qiita.com/rubytomato@github/items/b35b819671e7cbb3dff7
