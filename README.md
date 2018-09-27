@@ -59,6 +59,13 @@ $ npm install vuexfire
 $ npm install @nuxtjs/dotenv
 ```
 
+firebase の api key などは環境変数を使用しており、  
+git には push していない。  
+複数人で開発する場合は別の手段で必要な環境変数を入手/設定すること。  
+なお、dotenv を使用しているため、プロジェクトルートに.env ファイルを配置し、  
+環境変数を定義することで `npm run dev` 中に読み込むようにすることができる。  
+なお、本番環境は`Netlify`にビルド時の環境変数を設定している。
+
 ### VS Code で開発する場合
 
 see https://qiita.com/rubytomato@github/items/b35b819671e7cbb3dff7
